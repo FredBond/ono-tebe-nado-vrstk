@@ -68,7 +68,6 @@ h3 {
   justify-self:end;
   flex-direction:column;
   align-items:flex-start;
-
 }
 
 
@@ -78,8 +77,6 @@ h3 {
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-
-
   z-index: 1;
 }
 
@@ -90,7 +87,7 @@ h3 {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6); 
-  z-index: -1; 
+  z-index: -1;
 }
 
 .cover__title {
@@ -103,9 +100,6 @@ h3 {
   font-weight: 700;
   font-size: 100px;
   line-height: 115%;
-
-  
-
 }
 
 .aligned-text {
@@ -125,12 +119,12 @@ h3 {
   text-align: right;
 }
 .letter-spacing-extended {
-  letter-spacing: 30%; 
+  letter-spacing: 30%;
 }
 
 
 .no-letter-spacing {
-  letter-spacing: 0; 
+  letter-spacing: 0;
 }
 
 
@@ -146,7 +140,6 @@ h3 {
   justify-content: space-between;
   align-items: center;
   padding: 0px 50px 0px 50px;
-
 }
 
 
@@ -157,9 +150,9 @@ h3 {
   color: rgba(255, 255, 255);
   font-size: 22px;
   line-height: 28px;
-  word-spacing: 15px; 
-  letter-spacing: 0%; 
-  text-align: left; 
+  word-spacing: 15px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 
 .bet-button {
@@ -168,7 +161,6 @@ h3 {
   padding: 0;
   margin: 0;
   background: none;
- 
   width: 256px;
   height: 51px;
   border: 1px solid #FFFFFF;
@@ -180,15 +172,15 @@ h3 {
   line-height: 100%;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 0%; 
+  letter-spacing: 0%;
 }
 
 .lots {
   margin-top: 175px;
   margin-left: 24px;
   margin-right: 24px;
-
 }
+
 .lots__heading {
   width: 121px;
   height: 47px;
@@ -271,10 +263,7 @@ h3 {
   padding-right: 40px;
   font-family: 'Raleway', sans-serif;
   position: relative;
-  z-index: 2;
-   
-  
-  
+  z-index: 2; 
 }
 
 .card__title{
@@ -293,7 +282,6 @@ h3 {
   line-height: 120%; 
   letter-spacing: 0;
   text-decoration: none;
-
 }
 
 
@@ -305,7 +293,7 @@ h3 {
   font-weight: 400;
   font-size: 20px;
   line-height: 100%;
-  color: #000000; 
+  color: #000000;
 }
 
 .about {
@@ -320,7 +308,7 @@ h3 {
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 25px; 
-  align-items: start; 
+  align-items: start;
 }
 
 
@@ -329,26 +317,25 @@ h3 {
   padding-top: 35px;
   display: flex;
   justify-content: center; 
-  align-items: center; 
+  align-items: center;
 }
 
 
 .about__logo {
-
   width: 240px; 
   height: 240px; 
   background-color: #000000; 
   border-radius: 50%; 
   display: flex; 
   justify-content: center; 
-  align-items: center; 
+  align-items: center;
 }
 
 
 .about__logo-image {
   width: 148px; 
   height: 114px;
-  object-fit: contain; 
+  object-fit: contain;
 }
 
 
@@ -357,7 +344,6 @@ h3 {
   flex-direction: column;
 }
 
-/* Заголовок секции */
 .about__title {
   padding: 135px 0px 150px 0px;
   font-family: 'Raleway', sans-serif;
@@ -365,10 +351,8 @@ h3 {
   font-size: 40px;
   line-height: 100%;
   color: #000000;
- 
-}
+ }
 
-/* Обёртка для параграфов */
 .about__text {
   display: flex;
   flex-direction: column;
@@ -400,8 +384,7 @@ h3 {
 
 .footer__column--center {
   display: flex;
-  justify-content: center; 
-  
+  justify-content: center;  
 }
 
 .footer__menu-list {
@@ -417,35 +400,30 @@ h3 {
   font-size: 18px;
   line-height: 100%;
   color: #000000;
-
 }
 
 
 .footer__menu-link_active .footer__menu-link{
   color: #000000; 
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 
 .footer__column--right {
   padding-right: 50px;
   display: flex;
-  justify-content: flex-end; 
-  
-  
+  justify-content: flex-end;
 }
 
 .footer__social-list {
   list-style: none;
   display: flex;
-  gap: 48px;
-  
+  gap: 48px;  
 }
 .footer__social-link {
   display: block;
   width: 48px;
   height: 48px;
- 
  }
 
 
