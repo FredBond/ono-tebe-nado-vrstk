@@ -19,6 +19,7 @@ h3 {
 }
 
 .header{
+  height: 293px;
   display:grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items:center;
@@ -304,7 +305,7 @@ h3 {
   font-weight: 400;
   font-size: 20px;
   line-height: 100%;
-  color: #000000; /
+  color: #000000; 
 }
 
 .about {
