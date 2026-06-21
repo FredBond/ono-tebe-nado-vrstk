@@ -139,7 +139,6 @@ h3 {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
   padding: 0px 50px 0px 50px;
 }
 
@@ -159,7 +158,6 @@ h3 {
   width: 335px;
   height: 51px;
   margin: 0;
-  border: none;
   border: 1px solid #FFFFFF;
   padding: 0;
   color: #FFFFFF;
